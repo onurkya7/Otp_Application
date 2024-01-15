@@ -11,9 +11,9 @@ def run():
     message = code
     content = "Subject: {0}\n\n{1}".format(subject, message)
 
-    my_email_address = "ahmet3434try@outlook.com"
+    my_email_address = "...@outlook.com"
     password = "pass"
-    send_to = "onur2323den@outlook.com"
+    send_to = "...@outlook.com"
 
     mail = SMTP("smtp.outlook.com", 587)
     mail.ehlo()
